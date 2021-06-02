@@ -1,3 +1,8 @@
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+
 # uPlot R integration
 
 This package is a wrapper for extremely fast, small, and pretty time series visualization library
