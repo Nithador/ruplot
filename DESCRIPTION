@@ -2,10 +2,9 @@ Package: uPlot
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Tomáš Martinovič
+Maintainer: Tomáš Martinovič <tomas.martinovic@vsb.cz>
+Description: This is a wrapper for the javascript library uPlot created by Leon Sorokin.
 License: MIT + file LICENSE
 Depends:
   R (>= 3.1.0)

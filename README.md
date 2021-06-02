@@ -2,7 +2,6 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-
 # uPlot R integration
 
 This package is a wrapper for extremely fast, small, and pretty time series visualization library
@@ -16,10 +15,12 @@ if possible with syntax similar to R package [dygraphs](https://github.com/rstud
 Not sure at this stage if it will be possible.
 
 This version contains one main function `uplot()`, with parameters `data`, `opts` and `digits`.
-- `data` should be a data.frame with first column of ascending numbers equivalent to the x-axis points.
+- `data` should be a data.frame or list of vectors with first column/vector of ascending numbers equivalent to the x-axis points.
 Each further column is one time series.
 - `opts` should be a list of options which are passed to the original `uPlot` library.
 - `digits` is the number of digits which JSON parser will use. I found out the default 16 may be quite slow for large data. (This will be most likely changed to opts_json in future versions to allow greater control of the parser)
+
+It also contains `renderUplot()` and `uplotOutput()` functions for use in  `shiny` apps.
 
 # Installation
 Installation is now possible using `devtools` package
