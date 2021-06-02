@@ -1,0 +1,6 @@
+dependencies:
+  - name: uPlot
+    version: 1.6.9
+    src: htmlwidgets/lib/uplot-1.6.9
+    script: ./uPlot.iife.min.js
+    stylesheet: ./uPlot.min.css
