@@ -31,7 +31,7 @@ remotes::install_github("nithador/ruplot")
 
 # Usage
 
-```{r}
+``` r
 library(uPlot)
 
 opts <- list(
