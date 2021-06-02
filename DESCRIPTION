@@ -1,6 +1,6 @@
 Package: uPlot
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Interface to 'uPlot' Interactive Time Series Charting Library
 Version: 0.1.0
 Author: Tomáš Martinovič
 Maintainer: Tomáš Martinovič <tomas.martinovic@vsb.cz>
