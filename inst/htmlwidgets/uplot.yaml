@@ -1,6 +1,8 @@
 dependencies:
   - name: uPlot
-    version: 1.6.9
-    src: htmlwidgets/lib/uplot-1.6.9
-    script: ./uPlot.iife.min.js
+    version: 1.6.15
+    src: htmlwidgets/lib/uplot-1.6.15
+    script:
+      - ./uPlot.iife.min.js
+      - plugins/touch-zoom.js
     stylesheet: ./uPlot.min.css
